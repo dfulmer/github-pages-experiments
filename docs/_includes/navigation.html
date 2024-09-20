@@ -1,4 +1,4 @@
 <nav>
-  <a href="/github-pages-experiments/">Home</a>
-  <a href="/github-pages-experiments/about.html">About</a>
+  <a href="/github-pages-experiments/" {% if page.url == "/" %}style="color: red;"{% endif %}>Home</a>
+  <a href="/github-pages-experiments/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>About</a>
 </nav>
