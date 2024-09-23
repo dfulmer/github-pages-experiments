@@ -3,11 +3,6 @@ layout: default
 title: Markdown Table
 datatable: true
 ---
-<style>
-  tr:nth-child(even) {
-    background-color: #D6EEE;
-  }
-</style>
 
 # Markdown Table Page
 
