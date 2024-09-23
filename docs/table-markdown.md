@@ -111,27 +111,22 @@ datatable: true
     </tr>
   </thead>
   <tbody>
-
       <tr style="background-color: 'white';">
         <td>Value 1</td>
         <td>Value 2</td>
       </tr>
-
       <tr style="background-color: '#f0f0f0';">
         <td>Value 3</td>
         <td>Value 4</td>
       </tr>
-
       <tr style="background-color: 'white';">
         <td>Value 5</td>
         <td>Value 6</td>
-      </tr>
-      
+      </tr>      
       <tr style="background-color: '#f0f0f0';">
         <td>Value 7</td>
         <td>Value 8</td>
       </tr>
-
   </tbody>
 </table>
 
