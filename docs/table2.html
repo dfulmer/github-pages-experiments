@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .invoice-container {
+            width: 100%;
+            max-width: 600px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .invoice-header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #e0eaff;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .invoice-header div {
+            width: 45%;
+        }
+        .invoice-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .invoice-table th, .invoice-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        .invoice-table th {
+            background-color: #e0eaff;
+        }
+        .invoice-summary {
+            text-align: right;
+        }
+        .invoice-summary td {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="invoice-container">
+    <div class="invoice-header">
+        <div>
+            <p><strong>Invoice Number:</strong> 20240923-1</p>
+            <p><strong>Invoice Date:</strong> 09/23/2023</p>
+        </div>
+        <div>
+            <p><strong>Vendor:</strong> Vendor Inc.</p>
+            <p><strong>Buyer:</strong> Library</p>
+        </div>
+    </div>
+
+    <table class="invoice-table">
+        <thead>
+            <tr>
+                <th>Line Number</th>
+                <th>Title</th>
+                <th>Order Number</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Washington D.C.</td>
+                <td>POL-178651</td>
+                <td>1</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>The Judgment of Paris</td>
+                <td>POL-178652</td>
+                <td>1</td>
+                <td>$20.00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="invoice-summary">
+        <tr>
+            <td><strong>Shipping:</strong></td>
+            <td>$5.00</td>
+        </tr>
+        <tr>
+            <td><strong>Total:</strong></td>
+            <td>$35.00</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
