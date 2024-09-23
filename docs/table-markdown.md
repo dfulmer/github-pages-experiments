@@ -116,12 +116,27 @@ datatable: true
     </tr>
   </thead>
   <tbody>
-    {% for item in data %}
-      <tr style="background-color: {{ item.index % 2 == 0 ? 'white' : '#f0f0f0' }};">
-        <td>{{ item.column1 }}</td>
-        <td>{{ item.column2 }}</td>
+
+      <tr style="background-color: 'white';">
+        <td>Value 1</td>
+        <td>Value 2</td>
       </tr>
-    {% endfor %}
+
+      <tr style="background-color: '#f0f0f0';">
+        <td>Value 3</td>
+        <td>Value 4</td>
+      </tr>
+
+      <tr style="background-color: 'white';">
+        <td>Value 5</td>
+        <td>Value 6</td>
+      </tr>
+      
+      <tr style="background-color: '#f0f0f0';">
+        <td>Value 7</td>
+        <td>Value 8</td>
+      </tr>
+
   </tbody>
 </table>
 
