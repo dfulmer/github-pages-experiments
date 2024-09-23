@@ -105,3 +105,23 @@ datatable: true
     <td>$35.00</td>
   </tr>
 </table>
+
+<h2>This is markdown with liquid styling</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in data %}
+      <tr style="background-color: {{ item.index % 2 == 0 ? 'white' : '#f0f0f0' }};">
+        <td>{{ item.column1 }}</td>
+        <td>{{ item.column2 }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
