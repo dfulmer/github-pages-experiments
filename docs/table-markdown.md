@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Markdown Table
+datatable: true
 ---
 # Markdown Table Page
 
