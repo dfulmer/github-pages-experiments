@@ -3,6 +3,12 @@ layout: default
 title: Markdown Table
 datatable: true
 ---
+<style>
+  tr:nth-child(even) {
+    background-color: #D6EEE;
+  }
+</style>
+
 # Markdown Table Page
 
 | Priority apples | Second priority | Third priority |
@@ -41,7 +47,7 @@ datatable: true
 
 <h2>A Simple Invoice</h2>
 
-<table style="width:100%">
+<table style="width:50%">
   <tr>
     <th>Invoice</th>
     <th></th>
