@@ -1,3 +1,7 @@
-tr:nth-child(even) {
-    background-color: #D6EEE;
-    }
+.current {
+  color: green;
+}
+
+tr:nth-of-type(even){
+  background: lightgrey;
+  }
