@@ -130,3 +130,15 @@ datatable: true
   </tbody>
 </table>
 
+<p>Here is the invoice:</p>
+
+| Invoice         |                   |         |           |        |
+|-----------------|-------------------|---------|-----------|--------|
+| Invoice Date:   | 9/23/2024         |         |           |        |
+| Invoice Number: | 20240923-1        |         |           |        |
+| Line            | Title             | Order   | Quantity  | Price  |
+| 1               | Washington        | POL-123 | 1         | $10.00 |
+| 2               | Judgment of Paris | POL-234 | 1         | $20.00 |
+|                 |                   |         | Shipping: | $5.00  |
+|                 |                   |         | Total:    | $35.00 |
+
