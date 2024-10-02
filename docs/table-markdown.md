@@ -142,3 +142,26 @@ datatable: true
 |                 |                   |         | Shipping: | $5.00  |
 |                 |                   |         | Total:    | $35.00 |
 
+<p>Two Tables</p>
+<table>
+  <thead>
+    <th>Column 1</th>
+    <th>Column 2</th>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Number One</td>
+    <td>Number Two</td>
+  </tr>
+  <tr>
+    <td>Number Three</td>
+    <td>Number Four</td>
+  </tr>
+  </tbody>
+</table>
+
+
+| Column1     | Column 2
+|-------------|-------------|
+| Number One  | Number Two  |
+| Number Three| Number Four |
