@@ -172,3 +172,10 @@ Left Aligned Column:
 |:------------|:------------|
 | Number One  | Number Two  |
 | Number Three| Number Four |
+
+Right Aligned Column:
+
+| Column1     | Column 2
+|------------:|------------:|
+| Number One  | Number Two  |
+| Number Three| Number Four |
