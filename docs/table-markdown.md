@@ -165,3 +165,10 @@ datatable: true
 |-------------|-------------|
 | Number One  | Number Two  |
 | Number Three| Number Four |
+
+Left Aligned Column:
+
+| Column1     | Column 2
+|:------------|:------------|
+| Number One  | Number Two  |
+| Number Three| Number Four |
