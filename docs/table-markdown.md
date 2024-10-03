@@ -179,3 +179,10 @@ Right Aligned Column:
 |------------:|------------:|
 | Number One  | Number Two  |
 | Number Three| Number Four |
+
+Center Aligned Column:
+
+| Column1     | Column 2
+|:-----------:|:-----------:|
+| Number One  | Number Two  |
+| Number Three| Number Four |
