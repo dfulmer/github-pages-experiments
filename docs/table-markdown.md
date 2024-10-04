@@ -186,3 +186,10 @@ Center Aligned Column:
 |:-----------:|:-----------:|
 | Number One  | Number Two  |
 | Number Three| Number Four |
+
+Center Aligned Column with bold text:
+
+| **Column1**     | **Column 2**
+|:-----------:|:-----------:|
+| **Number One**  | Number Two**  |
+| **Number **Three| **Number Four** |
