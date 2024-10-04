@@ -193,3 +193,10 @@ Center Aligned Column with bold text:
 |:-----------:|:-----------:|
 | **Number One**  | **Number Two**  |
 | **Number Three**| **Number Four** |
+
+Center Aligned Column with italic text:
+
+| *Column1*     | *Column 2*
+|:-----------:|:-----------:|
+| *Number One*  | *Number Two*  |
+| *Number Three*| *Number Four* |
