@@ -200,3 +200,10 @@ Center Aligned Column with italic text:
 |:-----------:|:-----------:|
 | *Number One*  | *Number Two*  |
 | *Number Three*| *Number Four* |
+
+Left Aligned Column with code:
+
+| Column1     | Column 2
+|:------------|:------------|
+| Number One. This is `code`.  | Number Two. This is `also code.`  |
+| `Number Three`| Number Four |
