@@ -191,5 +191,5 @@ Center Aligned Column with bold text:
 
 | **Column1**     | **Column 2**
 |:-----------:|:-----------:|
-| **Number One**  | Number Two**  |
-| **Number **Three| **Number Four** |
+| **Number One**  | **Number Two**  |
+| **Number Three**| **Number Four** |
