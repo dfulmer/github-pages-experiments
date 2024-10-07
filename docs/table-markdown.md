@@ -207,3 +207,32 @@ Left Aligned Column with code:
 |:------------|:------------|
 | Number One. This is `code`.  | Number Two. This is `also code.`  |
 | `Number Three`| Number Four |
+
+<h2>This is markdown with liquid styling 2</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr style="background-color: '#f0f0f0';">
+        <td>Value 1</td>
+        <td>Value 2</td>
+      </tr>
+      <tr style="background-color: 'white';">
+        <td>Value 3</td>
+        <td>Value 4</td>
+      </tr>
+      <tr style="background-color: '#f0f0f0';">
+        <td>Value 5</td>
+        <td>Value 6</td>
+      </tr>      
+      <tr style="background-color: 'white';">
+        <td>Value 7</td>
+        <td>Value 8</td>
+      </tr>
+  </tbody>
+</table>
