@@ -259,3 +259,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Here is **bold** and here is __bold__.
 
+Here is *italic text* and here is _more italic text_.
+Here is ~~strikethrough~~.
+
